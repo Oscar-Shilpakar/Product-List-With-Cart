@@ -4,7 +4,88 @@
     box-sizing: border-box;
 }
 
-html{
-    font-family: 'Red Hat Text',sans-serif;
+img{
+    width: 100%;
 }
 
+a{
+    text-decoration: none;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Red Hat Text', serif;
+    background-color: hsl(13, 31%, 94%);
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 900px;
+    margin: 40px auto;
+    display: flex;
+}
+
+.product-section{
+    width: 70%;
+}
+
+.section-title{
+    margin-bottom: 20px;
+    color: hsl(14, 65%, 9%);
+    font-size: 28px;
+}
+
+.product-item{
+    width: 30%;                      
+}
+
+.product-image img{
+    border-radius: 20px;
+}
+
+.product-image{
+    position: relative;
+}
+
+.cart-btn{
+    position: absolute;
+    left: 15%;
+    bottom: -15px;
+    background: #fff;
+    padding: 8px 20px;
+    color: hsl(14, 65%, 9%);
+    border-radius: 30px;
+    font-weight: bold;
+    border: 1px solid hsl(14, 25%, 72%);
+}
+
+.card-btn *{
+    vertical-align: middle;
+}
+
+.cart-btn img{
+    width: 20px;
+}
+
+.product-content{
+    margin-top: 15px;
+}
+
+.category{
+    color: hsl(14, 25%, 72%);
+    font-size: 14px;
+}
+
+.title{
+    color: hsl(14, 65%, 9%);
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.price{
+    color: hsl(14, 86%, 42%);
+    font-weight: 600;
+}
